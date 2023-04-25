@@ -1,0 +1,68 @@
+h5{
+  font-weight: 500;
+  margin: 0;
+  margin-top: 16px;
+
+}
+h6{
+  font-weight: 500;
+  margin: 16px 0;
+}
+
+#transfers{
+    display: block;
+    
+    background-color: #eabda8;
+
+    width: 30%;
+    border-radius: 0.5rem;
+
+    color: white;
+    padding: 0rem 1rem;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 400 !important;
+
+    
+      
+  
+  }
+  .transfer-elements-container{
+    height: 90vh;
+    width: 100%; 
+  }
+  .transfer-elements{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-rows: 5% 55% 40%;
+    
+  }
+  .header-transfers{
+    grid-row:1;
+  }
+  .download-transfers{
+    
+    border-radius: 1rem;
+    grid-row-start: 2;
+    height: 90%;
+    
+  }
+  .upload-transfers{
+    
+    border-radius: 1rem;
+    grid-row-start: 3;
+    height: 90%;
+  }
+  .download-transfers-table-container{
+
+    height: 100%;
+    border-radius: 1rem;
+    background-color: white;
+  }
+  .upload-transfers-table-container{
+    height: 100%;
+    border-radius: 1rem;
+    background-color: white;
+  }
